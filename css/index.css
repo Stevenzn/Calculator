@@ -1,3 +1,8 @@
+:root{
+    --colorPrincipal:#5ba5db87;
+     
+}
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -5,11 +10,10 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
-
 }
 
 body {
-    background-color: #5ba5db87;
+    background-color: var(--colorPrincipal);
     font-family: "Red Hat Display", sans-serif;
 }
 
@@ -23,30 +27,30 @@ body {
 }
 
 .screen {
-    height: 150px;
+    height: 15rem;
     background: #001e34;
-    margin: 20px 20px 20px 20px;
-    margin: auto;
+    margin: 2rem 2rem;
+    margin: 0 auto;
 }
 
 .screenContent {
     text-align: end;
-    padding: 17px;
-    font-size: 30px;
+    padding: 1rem;
+    font-size: 5rem;
     user-select: none;
 }
 
 .calculation {
-    font-size: 12px;
+    font-size: 1.5rem;
     color: white;
-    overflow: auto;
+    overflow: hidden;
     padding-top: 2rem;
 }
 
 .result {
     font-size: 2.5rem;
     padding-top: 1rem;
-    color: #fff;
+    color: #0397db;
 }
 
 table {
@@ -72,12 +76,12 @@ td {
 }
 
 .operator {
-    color: #26b821;
+    color: #2aeb23;
     font-family: "Fira Sans", sans-serif;
 }
 
 .math {
-    color: #9a80e4;
+    color: #3e2a77;
     font-family: "Fira Sans", sans-serif;
 }
 
@@ -85,4 +89,10 @@ input[type="button"]:hover {
     background-color: #ffa800;
     color: #fff;
     transition: all 0.5s linear;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
 }
