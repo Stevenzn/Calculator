@@ -17,6 +17,12 @@ body {
     font-family: "Red Hat Display", sans-serif;
 }
 
+.title{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .calculator {
     position: absolute;
     top: 50%;
@@ -91,8 +97,3 @@ input[type="button"]:hover {
     transition: all 0.5s linear;
 }
 
-.title{
-    font-size: 3rem;
-    text-align: center;
-    text-transform: uppercase;
-}
